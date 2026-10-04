@@ -11,12 +11,39 @@ A aplicação será desenvolvida com o Clube Futebol Benfica como caso de estudo
 ## Objetivos
 O principal objetivo do **Team Pulse** é disponibilizar uma solução simples e centralizada para a gestão de equipas desportivas.
 Entre os principais objetivos encontram-se:
-- Centralizar a informação da equipa;
-- Facilitar a gestão de treinos e jogos;
-- Disponibilizar um calendário de atividades;
-- Registrar presenças através de QR Code;
-- Permitir a criação e preenchimento de formulários;
-- Facilitar o acompanhamento dos atletas;
-- Disponibilizar estatísticas individuais e coletivas;
-- Permitir a comunicação de informações e avisos à equipa;
-- Criar uma solução adaptável a diferentes modalidades.
+- Centralizar a informação da equipa
+- Facilitar a gestão de treinos e jogos
+- Disponibilizar um calendário de atividades
+- Registrar presenças através de QR Code
+- Permitir a criação e preenchimento de formulários
+- Facilitar o acompanhamento dos atletas
+- Disponibilizar estatísticas individuais e coletivas
+- Permitir a comunicação de informações e avisos à equipa
+- Criar uma solução adaptável a diferentes modalidades
+
+## Utilizadores
+A aplicação possui dois tipos principais de utilizadores:
+
+### Treinador
+O treinador é responsável pela gestão e acompanha da equipa.
+Principais funcionalidades:
+- Gerir atletas
+- Criar e consultar treinos
+- Definir data, hora e localização das atividades
+- Consultar o calendário
+- Criar formulários
+- Consultar respostas dos atletas
+- Consultar estatísticas
+- Disponibilizar informações e avisos à equipa
+
+### Atleta
+O atleta utiliza a aplicação para acompanhar a sua atividade e manter-se informado sobre a equipa.
+Principais funcionalidades:
+- Consultar treinos e jogos
+- Consultar horários e localizações
+- Registar presença através do QR Code
+- Preencher formulários
+- Consultar informações da equipa
+- Consultar estatísticas disponíveis
+
+|Funcionalide| Descriçāo|
