@@ -11,46 +11,46 @@ TeamPulse
 Engenharia Informática
 
 # Unidades Curriculares
--Projeto de Desenvolvimento Móvel
--Programação de Dispositivos Móveis
--Bases de Dados
--Redes e Comunicação de Dados
--Interfaces e Usabilidade
--Matemática Discreta
+- Projeto de Desenvolvimento Móvel;
+- Programação de Dispositivos Móveis;
+- Bases de Dados;
+- Redes e Comunicação de Dados;
+- Interfaces e Usabilidade;
+- Matemática Discreta.
 
 # Docentes
--Fabio Guilherme
--Pedro Rosa
--João Pedro Duarte Barros Monge
--Miguel Boavida
--Paula Neves
--Ricardo Manuel Freitas de Sousa
+- Fabio Guilherme;
+- Pedro Rosa;
+- João Pedro Duarte Barros Monge;
+- Miguel Boavida;
+- Paula Neves;
+- Ricardo Manuel Freitas de Sousa.
 
 # Estudantes participantes
--Isabella Almeida (20251497)
--Leonor José Almeida (20251351)
--José Almeida (20250810)
+- Isabella Almeida (20251497);
+- Leonor José Almeida (20251351);
+- José Almeida (20250810).
 
 # Palavras-chaves
--Aplicação Móvel
--Desporto
--Clubes desportivos
--Equipas
--Treinadores
--Atletas
--Praticidade
--Acompanhamento
+- Aplicação Móvel;
+- Desporto;
+- Clubes desportivos;
+- Equipas;
+- Treinadores;
+- Atletas;
+- Praticidade;
+- Acompanhamento.
 
 # Tecnologias utilizadas
--Figma
--Design
--Flutter
--Dart
--Node.js
--REST
--MySQL
--GitHub
--GitHub Projects
+- Figma;
+- Design;
+- Flutter;
+- Dart;
+- Node.js;
+- REST;
+- MySQL;
+- GitHub;
+- GitHub Projects.
 
 # Resumo
 O Team Pulse é uma aplicação móvel destinada à gestão e acompanhamento de equipas desportivas. A aplicação pretende centralizar informação relativa a treinos, jogos, presenças, formulários e estatísticas, ajudando a comunicação e a organização entre treinadores e atletas.
