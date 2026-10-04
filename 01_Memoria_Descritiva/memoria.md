@@ -3,7 +3,7 @@
 ## 1.Identificação
 
 ### Nome do projeto: Team Pulse
-### Ano letivo:** 2026/2027
+### Ano letivo: 2026/2027
 ### Semestre: 3.º semestre
 ### Unidades Curriculares
 - Projeto de Desenvolvimento Móvel
@@ -14,7 +14,13 @@
 - Matemática Discreta
   
 ### Docentes
-
+- Fabio Guilherme
+- Pedro Rosa
+- João Pedro Duarte Barros Monge
+- Miguel Boavida
+- Paula Neves
+- Ricardo Manuel Freitas de Sousa
+  
 ## 2. Resumo
 ## 3. Contexto
 ### 3.1. Problema abordado
