@@ -46,4 +46,4 @@ Principais funcionalidades:
 - Consultar informações da equipa
 - Consultar estatísticas disponíveis
 
-|Funcionalide| Descriçāo|
+| Funcionalide | Descriçāo |
