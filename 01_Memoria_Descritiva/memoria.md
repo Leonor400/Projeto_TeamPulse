@@ -6,6 +6,13 @@
 ### Ano letivo:** 2026/2027
 ### Semestre: 3.º semestre
 ### Unidades Curriculares
+- Projeto de Desenvolvimento Móvel
+- Programação de Dispositivos Móveis
+- Redes e Comunicação de Dados
+- Bases de Dados
+- Interfaces e Usabilidade
+- Matemática Discreta
+  
 ### Docentes
 
 ## 2. Resumo
