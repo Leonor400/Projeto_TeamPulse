@@ -26,6 +26,8 @@
 ### 3.1. Problema abordado
 ### 3.2. Motivação
 ### 3.3. Objetivos
+O principal objetivo do **Team Pulse** é centralizar e facilitar a gestão e o acompanhamento de equipas desportivas, reunindo numa única aplicação informações como treinos, jogos, presenças, formulários e estatísticas, de forma a simplificar a organização e a comunicação entre treinadores e atletas.
+
 ## 4. Processo
 ### 4.1 Metodologia utilizada
 ### 4.2. Ferramentas utilizadas
