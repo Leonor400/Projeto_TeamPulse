@@ -1,16 +1,16 @@
-#Título do projeto
+# Título do projeto
 TeamPulse
 
-#Ano Letivo
+# Ano Letivo
 2026/2027
 
-#Semestre
+# Semestre
 3.º semestre
 
-#Curso
+# Curso
 Engenharia Informática
 
-#Unidades Curriculares
+# Unidades Curriculares
 -Projeto de Desenvolvimento Móvel
 -Programação de Dispositivos Móveis
 -Bases de Dados
@@ -18,7 +18,7 @@ Engenharia Informática
 -Interfaces e Usabilidade
 -Matemática Discreta
 
-#Docentes
+# Docentes
 -Fabio Guilherme
 -Pedro Rosa
 -João Pedro Duarte Barros Monge
@@ -26,12 +26,12 @@ Engenharia Informática
 -Paula Neves
 -Ricardo Manuel Freitas de Sousa
 
-#Estudantes participantes
+# Estudantes participantes
 -Isabella Almeida (20251497)
 -Leonor José Almeida (20251351)
 -José Almeida (20250810)
 
-#Palavras-chaves
+# Palavras-chaves
 -Aplicação Móvel
 -Desporto
 -Clubes desportivos
@@ -41,7 +41,7 @@ Engenharia Informática
 -Praticidade
 -Acompanhamento
 
-#Tecnologias utilizadas
+# Tecnologias utilizadas
 -Figma
 -Design
 -Flutter
@@ -52,6 +52,6 @@ Engenharia Informática
 -GitHub
 -GitHub Projects
 
-#Resumo
+# Resumo
 O Team Pulse é uma aplicação móvel destinada à gestão e acompanhamento de equipas desportivas. A aplicação pretende centralizar informação relativa a treinos, jogos, presenças, formulários e estatísticas, ajudando a comunicação e a organização entre treinadores e atletas.
 A aplicação será desenvolvida com o Clube Futebol Benfica como caso de estudo, mas será pensada de forma a poder ser utilizada por diferentes clubes, equipas e modalidades desportivas. A aplicação terá dois tipos de utilizadores principais: treinadores e atletas, com diferentes permissões e funcionalidades. Entre as principais funcionalidades encontra-se a consulta de calendário, a criação e gestão de treinos, registo de presenças através de QR Code, preenchimento de formulários e consulta de estatísticas.
