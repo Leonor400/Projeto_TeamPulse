@@ -45,5 +45,3 @@ Principais funcionalidades:
 - Preencher formulários
 - Consultar informações da equipa
 - Consultar estatísticas disponíveis
-
-| Funcionalide | Descriçāo |
