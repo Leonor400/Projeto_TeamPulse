@@ -2,9 +2,9 @@
 
 ## 1.Identificação
 
-**Nome do projeto:** Team Pulse
-**Ano letivo:** 2026/2027
-**Semestre:** 3.º semestre
+### Nome do projeto: Team Pulse
+### Ano letivo:** 2026/2027
+### Semestre: 3.º semestre
 ### Unidades Curriculares
 ### Docentes
 
