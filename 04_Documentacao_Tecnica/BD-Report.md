@@ -197,7 +197,6 @@ Legenda: **PK** chave primária · **FK** chave estrangeira · **UNIQUE** valor 
 
 Todas as **25 chaves estrangeiras** usam `ON DELETE NO ACTION ON UPDATE NO ACTION`: não é possível apagar uma linha que ainda esteja a ser usada por outra tabela. Para apagar, por exemplo, uma atividade, o servidor apaga primeiro as linhas que dependem dela (presenças, disponibilidades, formulários, estatísticas) e só depois a atividade (validação V18).
 
-A base de dados **não usa** `ENUM`, `CHECK`, `DEFAULT`, `UNSIGNED`, `BOOLEAN` nem views. As regras correspondentes são verificadas pelo servidor (secção 3.20).
 
 #### 3.1 `utilizador`
 
