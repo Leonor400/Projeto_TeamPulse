@@ -2,7 +2,14 @@
 Aplicação móvel para gestão e acompanhamento de equipas desportivas.
 
 ## Documentação
-[Prosposta Inicial](g02-proposta-v1.pdf)
+- [Proposta Inicial](g02-proposta-v1.pdf)
+- [BD Report](04_Documentacao_Tecnica/BD-Report.md)
+- [Documentação REST v1](04_Documentacao_Tecnica/documentacao-rest-v1.md)
+
+## Artefactos
+- [Base de Dados](05_Artefactos/Base_Dados)
+- [Servidor Node.js](05_Artefactos/Backend/teampulse-server)
+- [Aplicação Móvel](05_Artefactos/Aplicacao_Movel/teampulsefinal1)
 
 ## Sobre o projeto
 O **Team Pulse** é uma aplicação móvel destinada à gestão e acompanhamento de equipas desportivas. A aplicação pretende centralizar informação relativa a treinos, jogos, presenças, formulários e estatísticas, ajudando a comunicação e a organização entre treinadores e atletas.
