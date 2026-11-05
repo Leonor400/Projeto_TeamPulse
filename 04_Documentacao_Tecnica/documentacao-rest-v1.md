@@ -34,4 +34,3 @@ Servidor local: `http://localhost:3000`. Os URLs abaixo não incluem esta raiz.
 | **Success Response** | **Code:** 200<br>**Content:** `{ "id": 21, "nome": "Inês Carvalho", "data_nascimento": "2006-11-16", "idade": 19, "genero": "F", "posicao": "Guarda-redes", "altura_cm": 175, "peso_kg": 56, "numero_camisola": 1, "id_equipa": 3, "equipa": "CF Benfica Seniores Femininos", "escalao": "Seniores" }` |
 | **Error Response** | **Code:** 200<br>**Content:** `{ "msg": "ERRO: Esse atleta não existe" }` — quando não existe atleta com esse id.<br><br>OR<br><br>**Code:** 200<br>**Content:** objeto de erro do MySQL quando não há ligação à base de dados. |
 | **Sample Call** | `curl http://localhost:3000/api/atletas/21`<br>Ou abrir o URL no browser ou no Postman (pedido GET). |
-| **Notes** | 04/11/2026: o id é passado à query com o placeholder `?` (evita SQL injection). As respostas de erro usam o código 200 e uma mensagem `msg`. |
