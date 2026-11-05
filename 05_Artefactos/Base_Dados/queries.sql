@@ -117,7 +117,7 @@ where a.id_equipa = 3
                         where a2.id_equipa = 3)
 order by u.nome, pg.ordem;
 
-# Q08 Avisos visíveis para a atleta Inês Carvalho, fixados primeiro
+# Q08 Avisos visíveis para a atleta Lara Natividade, fixados primeiro
 select e.nome equipa, u.nome autor, av.titulo, av.mensagem,
        case when av.fixado = 'S' then 'Fixado' else '' end destaque,
        date_format(av.data_publicacao, '%d/%m %H:%i') publicado

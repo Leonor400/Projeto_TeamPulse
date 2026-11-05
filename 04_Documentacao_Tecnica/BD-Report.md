@@ -200,7 +200,7 @@ Todas as **25 chaves estrangeiras** usam `ON DELETE NO ACTION ON UPDATE NO ACTIO
 
 #### 3.1 `utilizador`
 
-Todas as pessoas que entram na app. Guarda os dados comuns a treinadores e atletas e serve para o login (RF01). O perfil é dado pela tabela onde a pessoa existe (`treinador` ou `atleta`). Linhas nos dados de exemplo: **29**.
+Todas as pessoas que entram na app. Guarda os dados comuns a treinadores e atletas e serve para o login (RF01). O perfil é dado pela tabela onde a pessoa existe (`treinador` ou `atleta`). Linhas nos dados de exemplo: **31**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -227,7 +227,7 @@ Especialização de UTILIZADOR com os dados próprios do treinador. A chave prim
 
 #### 3.3 `atleta`
 
-Especialização de UTILIZADOR com os dados próprios do atleta. Linhas nos dados de exemplo: **25**.
+Especialização de UTILIZADOR com os dados próprios do atleta. Linhas nos dados de exemplo: **27**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -282,7 +282,7 @@ Tabela intermédia da relação N:M entre EQUIPA e TREINADOR. Uma equipa pode te
 
 #### 3.7 `inscricao`
 
-Tabela intermédia da relação N:M entre ATLETA e EQUIPA. Guarda o período em que o atleta pertence à equipa, o que permite mudanças de equipa sem perder o histórico. Linhas nos dados de exemplo: **26**.
+Tabela intermédia da relação N:M entre ATLETA e EQUIPA. Guarda o período em que o atleta pertence à equipa, o que permite mudanças de equipa sem perder o histórico. Linhas nos dados de exemplo: **28**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -338,7 +338,7 @@ Lista fixa dos resultados de um registo de presença (1 presente, 2 ausente, 3 j
 
 #### 3.12 `atividade`
 
-Treinos, jogos e torneios de uma equipa. Cada atividade tem um código QR único (RF03 a RF08). Linhas nos dados de exemplo: **110**.
+Treinos, jogos e torneios de uma equipa. Cada atividade tem um código QR único (RF03 a RF08). Linhas nos dados de exemplo: **11**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -359,7 +359,7 @@ Treinos, jogos e torneios de uma equipa. Cada atividade tem um código QR único
 
 #### 3.13 `presenca`
 
-Registo de presença de um atleta numa atividade, feito no local por QR Code ou manualmente pelo treinador (RF08). Linhas nos dados de exemplo: **701**.
+Registo de presença de um atleta numa atividade, feito no local por QR Code ou manualmente pelo treinador (RF08). Linhas nos dados de exemplo: **69**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -377,7 +377,7 @@ Registo de presença de um atleta numa atividade, feito no local por QR Code ou 
 
 #### 3.14 `disponibilidade`
 
-Resposta do atleta, antes da atividade, sobre se vai ou não («Vou / Não vou / Talvez»). Se mudar de ideias, a linha é atualizada. Linhas nos dados de exemplo: **345**.
+Resposta do atleta, antes da atividade, sobre se vai ou não («Vou / Não vou / Talvez»). Se mudar de ideias, a linha é atualizada. Linhas nos dados de exemplo: **12**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -394,7 +394,7 @@ Resposta do atleta, antes da atividade, sobre se vai ou não («Vou / Não vou /
 
 #### 3.15 `formulario`
 
-Formulário criado por um treinador e associado a uma atividade, por exemplo o pós-treino (RF09). Linhas nos dados de exemplo: **20**.
+Formulário criado por um treinador e associado a uma atividade, por exemplo o pós-treino (RF09). Linhas nos dados de exemplo: **2**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -410,7 +410,7 @@ Formulário criado por um treinador e associado a uma atividade, por exemplo o p
 
 #### 3.16 `pergunta`
 
-Perguntas de um formulário, pela ordem em que aparecem. Linhas nos dados de exemplo: **80**.
+Perguntas de um formulário, pela ordem em que aparecem. Linhas nos dados de exemplo: **6**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -424,7 +424,7 @@ Perguntas de um formulário, pela ordem em que aparecem. Linhas nos dados de exe
 
 #### 3.17 `resposta`
 
-Resposta de um atleta a uma pergunta (RF10, RF11). Linhas nos dados de exemplo: **331**.
+Resposta de um atleta a uma pergunta (RF10, RF11). Linhas nos dados de exemplo: **15**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -441,7 +441,7 @@ Resposta de um atleta a uma pergunta (RF10, RF11). Linhas nos dados de exemplo: 
 
 #### 3.18 `estatistica_jogo`
 
-Estatísticas de futebol de um atleta num jogo ou torneio, incluindo dados GPS quando existem (RF12, RF13). Linhas nos dados de exemplo: **163**.
+Estatísticas de futebol de um atleta num jogo ou torneio, incluindo dados GPS quando existem (RF12, RF13). Linhas nos dados de exemplo: **20**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -462,7 +462,7 @@ Estatísticas de futebol de um atleta num jogo ou torneio, incluindo dados GPS q
 
 #### 3.19 `aviso`
 
-Avisos e informações do treinador para a equipa (RF14). Linhas nos dados de exemplo: **7**.
+Avisos e informações do treinador para a equipa (RF14). Linhas nos dados de exemplo: **4**.
 
 | Coluna | Tipo | Nulo | Chave | Descrição |
 |---|---|---|---|---|
@@ -495,7 +495,7 @@ O ficheiro `populate.sql` cria uma BD de teste **coerente e com dados fictícios
 
 ### 4.1 Período simulado
 
-- As atividades vão de **07/09/2026 a 22/11/2026** (11 semanas).
+- As atividades vão de **18/10/2026 a 10/11/2026**.
 - O "hoje" da simulação é **06/11/2026 às 12:00**, o dia da 2.ª entrega: as atividades anteriores estão realizadas e têm presenças e estatísticas; as seguintes estão agendadas (ou alteradas/canceladas) e só têm disponibilidades.
 - Em `queries.sql` este momento está escrito com `str_to_date('2026.11.06 12:00','%Y.%m.%d %H:%i')`. Na aplicação usa-se `now()`.
 
@@ -503,28 +503,28 @@ O ficheiro `populate.sql` cria uma BD de teste **coerente e com dados fictícios
 
 | Tabela | Linhas | Notas |
 |---|---|---|
-| utilizador | 29 | 4 treinadores (ids 1–4) e 25 atletas (ids 5–29) |
-| equipa | 3 | Sub-17, Sub-19 e Seniores Femininos, todos de Futebol |
+| utilizador | 31 | 4 treinadores (ids 1–4) e 27 atletas (ids 5–31) |
+| equipa | 3 | Sub-17, Sub-19 e Seniores, todas femininas e de Futebol |
 | equipa_treinador | 7 | Inclui um treinador em duas equipas e um que mudou de equipa |
-| inscricao | 26 | 25 atletas, um deles com duas inscrições |
+| inscricao | 28 | 27 atletas, uma delas com duas inscrições |
 | local | 5 | 3 no Estádio Francisco Lázaro e 2 campos adversários |
 | tipo_atividade / estado_atividade / estado_presenca | 3 / 4 / 3 | Listas fixas (inseridas primeiro) |
-| atividade | 110 | 77 treinos, 32 jogos e 1 torneio; 85 realizadas, 21 agendadas, 2 alteradas e 2 canceladas |
-| presenca | 701 | 569 presentes, 54 ausentes e 78 justificadas |
-| disponibilidade | 345 | 292 «vou», 35 «não vou» e 18 «talvez» |
-| formulario / pergunta / resposta | 20 / 80 / 331 | Pós-treino dos Sub-17 e das Seniores, desde o treino de 06/10 |
-| estatistica_jogo | 163 | GPS só no Sub-19 e nas Seniores (coletes GPS) |
-| aviso | 7 | 4 fixados |
+| atividade | 11 | 6 treinos e 5 jogos; 7 realizadas, 2 agendadas, 1 alterada e 1 cancelada |
+| presenca | 69 | 62 presentes, 3 ausentes e 4 justificadas |
+| disponibilidade | 12 | 8 «vou», 3 «não vou» e 1 «talvez» |
+| formulario / pergunta / resposta | 2 / 6 / 15 | Pós-treino dos Sub-17 e das Seniores, treino de 03/11 |
+| estatistica_jogo | 20 | GPS só nas Seniores (coletes GPS) |
+| aviso | 4 | 2 fixados |
 
 ### 4.3 Estrutura das equipas
 
-| Equipa | Treinadores atuais | Atletas (ids) | Horário semanal |
-|---|---|---|---|
-| CF Benfica Sub-17 | Rui Matos (principal), Paulo Ferreira (adjunto) | 5–13 | Treinos terça e quinta às 19:00; jogo ao sábado às 10:00 |
-| CF Benfica Sub-19 | Paulo Ferreira (principal), Hugo Teixeira (preparador físico) | 14–20 e 9 | Treinos segunda, quarta e sexta às 20:00; jogo ao domingo às 11:00 |
-| CF Benfica Seniores Femininos | Marta Lopes (principal), Hugo Teixeira (preparador físico) | 21–29 | Treinos terça e quinta às 20:00; jogo ao domingo às 15:00 |
+| Equipa | Treinadores atuais | Atletas (ids) |
+|---|---|---|
+| CF Benfica Sub-17 Femininos | Rui Matos (principal), Paulo Ferreira (adjunto) | 5–10 |
+| CF Benfica Sub-19 Femininos | Paulo Ferreira (principal), Hugo Teixeira (preparador físico) | 12–19 e 11 |
+| CF Benfica Seniores Femininos | Marta Lopes (principal), Hugo Teixeira (preparador físico) | 20–31 |
 
-Rui Matos (treinador) e Inês Carvalho (atleta, id 21) correspondem às **personas** do relatório de Interfaces e Usabilidade.
+Rui Matos (treinador) corresponde à **persona** do treinador do relatório de Interfaces e Usabilidade.
 
 ### 4.4 Situações reais simuladas
 
@@ -532,16 +532,14 @@ Os dados incluem casos pensados para testar a app e as queries:
 
 | Situação | Onde está nos dados |
 |---|---|
-| Atleta que muda de equipa | Martim Costa (id 9): Sub-17 até 30/09, Sub-19 desde 01/10 |
+| Atleta que muda de equipa | Sofia Espanhol (id 11): Sub-17 até 30/09, Sub-19 desde 01/10 |
 | Treinador que muda de equipa | Hugo Teixeira: preparador físico dos Sub-17 até 30/09, das Seniores desde 01/10 |
-| Atleta lesionada | Carla Reis (id 24): faltas justificadas «Lesão - informou» entre 05/10 e 25/10 |
-| Atletas com assiduidade baixa | Carla Reis (40%), Duarte Sousa (46%) e outros 4 casos abaixo de 75% (query Q10) |
-| Atividades canceladas | Seniores, 01/10 (chuva); Sub-19, 11/11 (feriado) |
-| Atividades alteradas | Sub-17, 12/11 (passa para as 20:30 no Campo 1); Seniores, 10/11 (passa para o Campo 2) |
-| Torneio | Sub-17, 07/11 (dia seguinte ao "hoje"), no Complexo Desportivo Norte |
-| Disse «vou» e faltou | 6 casos (query Q20) |
-| Formulários por responder | 2 atletas presentes no treino de 05/11 dos Sub-17 que ainda não responderam, com prazo até 06/11 (query Q16) |
-| Presenças manuais | Cerca de 14% das presenças, para o caso em que o QR falha |
+| Atletas com assiduidade baixa | Ana Machado (0%), Ana Carvalho, Constança Rodrigues e Matilde Silva (50%) (query Q10) |
+| Atividade cancelada | Sub-19, 04/11 (chuva) |
+| Atividade alterada | Seniores, 10/11 (passa para o Campo 2) |
+| Disse «vou» e faltou | Constança Rodrigues, treino dos Sub-17 de 03/11 (query Q20) |
+| Formulários por responder | Atletas presentes no treino de 03/11 que ainda não responderam (query Q16) |
+| Presenças manuais | Nos jogos o treinador regista as presenças à mão; nos treinos usa-se o QR |
 | Dados opcionais por preencher | Alguns atletas sem altura e peso, alguns utilizadores sem telefone |
 
 ### 4.5 Contas de teste
@@ -552,8 +550,8 @@ Todos os utilizadores têm a password **`TeamPulse#2026`**, guardada com bcrypt.
 |---|---|---|
 | Treinador | `rui.matos@teampulse.test` | Sub-17: presenças, formulários, avisos |
 | Treinador | `paulo.ferreira@teampulse.test` | Treinador em duas equipas |
-| Atleta | `ines.carvalho@teampulse.test` | Persona atleta (Seniores) |
-| Atleta | `martim.costa@teampulse.test` | Atleta que mudou de equipa |
+| Atleta | `lara.natividade@teampulse.test` | Atleta das Seniores (query Q08) |
+| Atleta | `sofia.espanhol@teampulse.test` | Atleta que mudou de equipa |
 
 ## 5. Pesquisas (queries.sql)
 
@@ -600,7 +598,7 @@ Os três scripts foram testados em **MySQL 8.0.46** (linha de comandos `mysql`):
 
 - **Estatísticas só de futebol:** `estatistica_jogo` tem colunas fixas. Para outras modalidades, a evolução prevista é substituí-la por uma tabela de métricas (nome, unidade, modalidade) e outra de valores por atleta e atividade.
 - **Jogos na app:** a app Flutter regista acontecimentos do jogo (golos, assistências, substituições, cartões com o minuto) e os titulares; a BD guarda os totais por atleta em `estatistica_jogo`. A forma de juntar os dois modelos ainda está por decidir.
-- **Plantéis pequenos:** os dados de exemplo têm 7 a 9 atletas por equipa, o que não chega para 11 titulares. Fica para a mesma decisão.
+- **Plantéis pequenos:** os dados de exemplo têm 6 a 12 atletas por equipa, o que nem sempre chega para 11 titulares. Fica para a mesma decisão.
 - **Validações no servidor:** como a BD não usa `CHECK` nem `ENUM`, as regras V01 a V18 têm de ser implementadas no servidor; se alguém inserir dados diretamente na BD, estas regras não são verificadas.
 - **Notificações:** a app vai enviar notificações sobre alterações e formulários pendentes. Nesta versão são calculadas a partir de `atividade.id_estado_atividade`, `aviso` e `formulario`. Se for preciso guardar o histórico de notificações enviadas, junta-se uma tabela própria.
 - **Código QR fixo:** o código não expira. Se for preciso impedir registos à distância, pode juntar-se uma validade ou validar a localização GPS do telemóvel com as coordenadas de `local`.

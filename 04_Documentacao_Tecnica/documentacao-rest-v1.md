@@ -15,7 +15,7 @@ Servidor local: `http://localhost:3000`. Os URLs abaixo não incluem esta raiz.
 | **Method** | `GET` |
 | **URL Params** | Nenhum. |
 | **Data Params** | Nenhum. |
-| **Success Response** | **Code:** 200<br>**Content:** `[ { "id": 5, "nome": "Tiago Mendes", "data_nascimento": "2010-06-17", "idade": 16, "genero": "M", "posicao": "Guarda-redes", "altura_cm": null, "peso_kg": null, "numero_camisola": 1, "id_equipa": 1, "equipa": "CF Benfica Sub-17", "escalao": "Sub-17" }, ... ]` |
+| **Success Response** | **Code:** 200<br>**Content:** `[ { "id": 7, "nome": "Inês Pereira", "data_nascimento": "2009-02-21", "idade": 17, "genero": "F", "posicao": "Guarda-redes", "altura_cm": 172, "peso_kg": 61.3, "numero_camisola": 1, "id_equipa": 1, "equipa": "CF Benfica Sub-17 Femininos", "escalao": "Sub-17" }, ... ]` |
 | **Error Response** | **Code:** 200<br>**Content:** objeto de erro do MySQL (por exemplo `{ "code": "ECONNREFUSED", ... }`) quando não há ligação à base de dados. |
 | **Sample Call** | `curl http://localhost:3000/api/atletas`<br>Ou abrir o URL no browser ou no Postman (pedido GET). |
 | **Notes** | 04/11/2026: nesta versão o erro é devolvido ao cliente para debug; numa versão seguinte será trocado por uma mensagem genérica. Não devolve email nem password. |
@@ -31,6 +31,6 @@ Servidor local: `http://localhost:3000`. Os URLs abaixo não incluem esta raiz.
 | **Method** | `GET` |
 | **URL Params** | **Required:**<br>`id=[integer]` — id do atleta (`id_utilizador`). Exemplo: `id=21` |
 | **Data Params** | Nenhum. |
-| **Success Response** | **Code:** 200<br>**Content:** `{ "id": 21, "nome": "Inês Carvalho", "data_nascimento": "2006-11-16", "idade": 19, "genero": "F", "posicao": "Guarda-redes", "altura_cm": 175, "peso_kg": 56, "numero_camisola": 1, "id_equipa": 3, "equipa": "CF Benfica Seniores Femininos", "escalao": "Seniores" }` |
+| **Success Response** | **Code:** 200<br>**Content:** `{ "id": 21, "nome": "Lara Natividade", "data_nascimento": "2007-06-30", "idade": 19, "genero": "F", "posicao": "Defesa", "altura_cm": 171, "peso_kg": 61, "numero_camisola": 14, "id_equipa": 3, "equipa": "CF Benfica Seniores Femininos", "escalao": "Seniores" }` |
 | **Error Response** | **Code:** 200<br>**Content:** `{ "msg": "ERRO: Esse atleta não existe" }` — quando não existe atleta com esse id.<br><br>OR<br><br>**Code:** 200<br>**Content:** objeto de erro do MySQL quando não há ligação à base de dados. |
 | **Sample Call** | `curl http://localhost:3000/api/atletas/21`<br>Ou abrir o URL no browser ou no Postman (pedido GET). |
