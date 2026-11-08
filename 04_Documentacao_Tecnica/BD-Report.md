@@ -587,12 +587,12 @@ O ficheiro tem **21 pesquisas**, organizadas em 4 grupos de complexidade crescen
 
 ## 6. Instalação
 
-1. Abrir o **MySQL Workbench** (MySQL 8) e ligar ao servidor local.
+1. Abrir o **MySQL Workbench** e ligar ao servidor local.
 2. *File → Open SQL Script* → `create.sql` → executar (⚡). É criada a base `team_pulse`. **Atenção:** o script começa com `drop database if exists team_pulse`, por isso apaga uma versão anterior.
 3. Abrir `populate.sql` → executar (⚡).
 4. Abrir `queries.sql` → executar as linhas `set names` e `use` do início e depois uma pesquisa de cada vez (selecionar o texto da pesquisa e carregar em *Ctrl+Shift+Enter*).
 
-Os três scripts foram testados em **MySQL 8.0.46** (linha de comandos `mysql`): o `create.sql` e o `populate.sql` correm sem erros, e as 21 pesquisas correm sem erros nem avisos.
+Os três scripts foram testados no MySQL do MAMP: o create.sql e o populate.sql correm sem erros, e as 21 pesquisas devolvem resultados.
 
 ## 7. Limitações e trabalho futuro
 
