@@ -5,6 +5,7 @@ Aplicação móvel para gestão e acompanhamento de equipas desportivas.
 - [Proposta Inicial](Documentos/g02-proposta-v1.pdf)
 - [BD Report](04_Documentacao_Tecnica/BD-Report.md)
 - [Documentação REST v1](04_Documentacao_Tecnica/documentacao-rest-v1.md)
+- [Relatório Intermédio](Documentos/g02-relatorio-intermedio.pdf)
 
 ## Artefactos
 - [Base de Dados](05_Artefactos/Base_Dados)
