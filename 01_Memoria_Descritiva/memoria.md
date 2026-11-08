@@ -22,7 +22,7 @@
 - Ricardo Manuel Freitas de Sousa
   
 ## 2. Resumo
-O **Team Pulse** é uma aplicação móvel desenvolvida no âmbito do Projeto Multidisciplinar da Licenciatura em Engenharia Informática, com o objetivo de facilitar a gestão e o acompanhamento de equipas desportivas. O projeto surge da necessidade e centralizar informação que, durante uma época desportiva, pode encontra-se dispersa por diferentes meios, como grupos de comunicação, folhas de cálculo ou outros registos. Esta dispersão pode dificultar a organização, consultar e partilha de informação entre treinadores e atletas.
+O **Team Pulse** é uma aplicação móvel desenvolvida no âmbito do Projeto Multidisciplinar da Licenciatura em Engenharia Informática, com o objetivo de facilitar a gestão e o acompanhamento de equipas desportivas. O projeto surge da necessidade de centralizar informação que, durante uma época desportiva, pode encontra-se dispersa por diferentes meios, como grupos de comunicação, folhas de cálculo ou outros registos. Esta dispersão pode dificultar a organização, consultar e partilha de informação entre treinadores e atletas.
 
 A aplicação tem como caso de estudo o Clube Futebol Benfica, mas foi pensada de forma a poder ser adaptada a diferentes clubes, equipas e modalidades desportivas. O **Team Pulse** apresenta dois tipos principais de utilizadores: treinadores e atletas, com diferentes permissões e funcionalidades de acordo com o seu perfil.
 
