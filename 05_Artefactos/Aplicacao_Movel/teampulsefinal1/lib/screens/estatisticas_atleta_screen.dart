@@ -333,7 +333,7 @@ class EstatisticasAtletaScreen extends StatelessWidget {
                 const SizedBox(height: 25),
                 // Apenas o treinador pode adicionar ou corrigir estatísticas
                 if (!modoAtleta)
-                  // Botão original
+                 
                   SizedBox(
                     width: double.infinity,
                     height: 50,
