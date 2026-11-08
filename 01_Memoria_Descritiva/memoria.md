@@ -22,7 +22,7 @@
 - Ricardo Manuel Freitas de Sousa
   
 ## 2. Resumo
-O **Team Pulse** é uma aplicação móvel desenvolvida no âmbito do Projeto Multidisciplinar da Licenciatura em Engenharia Informática, com o objetivo de facilitar a gestão e o acompanhamento de equipas desportivas. O projeto surge da necessidade de centralizar informação que, durante uma época desportiva, pode encontra-se dispersa por diferentes meios, como grupos de comunicação, folhas de cálculo ou outros registos. Esta dispersão pode dificultar a organização, consultar e partilha de informação entre treinadores e atletas.
+O **Team Pulse** é uma aplicação móvel desenvolvida no âmbito do Projeto Multidisciplinar da Licenciatura em Engenharia Informática, com o objetivo de facilitar a gestão e o acompanhamento de equipas desportivas. O projeto surge da necessidade de centralizar informação que, durante uma época desportiva, pode encontrar-se dispersa por diferentes meios, como grupos de comunicação, folhas de cálculo ou outros registos. Esta dispersão pode dificultar a organização, consulta e partilha de informação entre treinadores e atletas.
 
 A aplicação tem como caso de estudo o Clube Futebol Benfica, mas foi pensada de forma a poder ser adaptada a diferentes clubes, equipas e modalidades desportivas. O **Team Pulse** apresenta dois tipos principais de utilizadores: treinadores e atletas, com diferentes permissões e funcionalidades de acordo com o seu perfil.
 
@@ -37,7 +37,7 @@ O desenvolvimento do **Team Pulse** integra conhecimentos de várias unidades cu
 Durante uma época desportiva, a gestão das atividades de uma equipa envolve diferentes tipos de informação e tarefas. A utilização de diferentes ferramentas para tratar estes dados pode tornar o acompanhamento menos organizado e dificultar o acesso à informação necessária no momento adequado.
 
 ### 3.2. Motivação
-A motivação para desenvolver o **Team Pulse** surgir da procura de uma solução que torne este processo mais simples e organizado. Pretende-se criar uma ferramenta que reúna num mesmo ambiente as principais necessidades de acompanhamento de uma equipa, proporcionando uma utilização prática tanto para treinadores como para os atletas.
+A motivação para desenvolver o **Team Pulse** surgiu da procura de uma solução que torne este processo mais simples e organizado. Pretende-se criar uma ferramenta que reúna num mesmo ambiente as principais necessidades de acompanhamento de uma equipa, proporcionando uma utilização prática tanto para treinadores como para os atletas.
 
 ### 3.3. Objetivos
 O principal objetivo do **Team Pulse** é centralizar e facilitar a gestão e o acompanhamento de equipas desportivas, reunindo numa única aplicação informações como treinos, jogos, presenças, formulários e estatísticas, de forma a simplificar a organização e a comunicação entre treinadores e atletas.
