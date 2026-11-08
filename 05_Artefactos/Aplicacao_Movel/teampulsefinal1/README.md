@@ -48,4 +48,4 @@ Algumas funcionalidades da aplicação são demonstrativas e não estão ligadas
 
 - Início de sessão: permite introduzir dados de acesso, mas não dispõe de um sistema de autenticação real.
 - Criação de conta: permite preencher e validar o formulário, mas não guarda as novas contas de forma persistente.
-- Gestão de dados: os dados são geridos localmente, sem integração identificada com um servidor ou uma base de dados externa.
+- Gestão de dados: o ecrã Equipas do treinador obtém as atletas do servidor (GET /api/atletas). Os restantes ecrãs ainda usam dados de exemplo guardados na aplicação.
