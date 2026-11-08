@@ -18,7 +18,7 @@ Servidor local: `http://localhost:3000`. Os URLs abaixo não incluem esta raiz.
 | **Success Response** | **Code:** 200<br>**Content:** `[ { "id": 7, "nome": "Inês Pereira", "data_nascimento": "2009-02-21", "idade": 17, "genero": "F", "posicao": "Guarda-redes", "altura_cm": 172, "peso_kg": 61.3, "numero_camisola": 1, "id_equipa": 1, "equipa": "CF Benfica Sub-17 Femininos", "escalao": "Sub-17" }, ... ]` |
 | **Error Response** | **Code:** 200<br>**Content:** objeto de erro do MySQL (por exemplo `{ "code": "ECONNREFUSED", ... }`) quando não há ligação à base de dados. |
 | **Sample Call** | `curl http://localhost:3000/api/atletas`<br>Ou abrir o URL no browser ou no Postman (pedido GET). |
-| **Notes** | 04/11/2026: nesta versão o erro é devolvido ao cliente para debug; numa versão seguinte será trocado por uma mensagem genérica. Não devolve email nem password. |
+
 
 ---
 
